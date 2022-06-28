@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #EE3027;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+header h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+    width: 20%;
+    text-align: center;
+    padding: 10px 100px;
+}
+header marquee{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    width: 953px;
+    padding: 10px 20px;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+    margin-left: 100px;
+    background: #F8F9FA;
+    width: 100%;
+}
+.logo{
+    width: 20%;
+    padding: 5px;
+}
+nav p{
+    border-left: 2px solid gray;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #666666;
+    padding-left: 5px;
+}  
+nav div ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    display: inline-block;
+    padding: 30px 30px;
+}
+nav div ul li a{
+    text-decoration: none;
+    color: #666666;
+    font-family: sans-serif;
+    transition: .3s linear;
+}
+.semi{
+    background-color: red;
+    
+}
+nav div ul li a:hover{
+    color:orange;
+}
+.banner img{
+    width: 100%;
+
+}
+main .main_p{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+main .main_p .about img{
+    width: 400px;
+    margin: 10px 70px;
+}
+main .main_p .ctg_branch{
+    padding: 10px 60px;
+}
+main .main_p .ctg_branch h1{
+    font-family: sans-serif;
+    color: #5B6B80;
+    margin: 10px 0;
+}
+main .main_p .ctg_branch p{
+    font-family: sans-serif;
+    color: #a86f72;
+    margin: 8px 0;
+    line-height: 1.6;
+}
+
+.Semina .table_h{
+    padding: 15px 0;
+}
+.Semina .table_h h1{
+    background-color: #E9E9E9;
+    font-family: sans-serif;
+    text-align: center;
+    color: #5B6B80;
+    font-weight: 400px;
+    margin: 20px 70px;
+    padding: 15px;
+}
+.Semina .table table{
+    /* width: 100%; */
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.Semina .table table tr th{
+    width: 40%;
+    border: 1px solid #DEE2E6;
+    border-collapse: collapse;
+    padding: 20px 0px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #49596D;
+}
+.Semina .table tr td{
+    border: 1px solid #DEE2E6;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+}
+.Semina .table tr td a{
+    color: white;
+    background-color: #49596D;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding: 10px 40px;
+    width: 20%;
+    text-decoration: none;
+    transition: .3s linear;
+
+}
+.Semina .table tr td a:hover{
+    background-color: red;
+}
+.course{
+    margin: 50px 0;
+    padding: 20px 0;
+}
+.course .course_h{
+    padding: 20px 0;
+}
+.course .course_h h1{
+    font-family: sans-serif;
+    color: #455d7c;
+    margin-bottom: 10px;
+    margin: 0 30px;
+}
+.course .course_h p{
+    font-family: sans-serif;
+    color: #858488;
+    margin: 0 30px;  
+}
+.course .course_p{
+    padding: 20px 0;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.course .course_p .citco{
+    display: flex;
+    width: 45%;
+    margin: 10px 30px;
+    border: 1px solid #858488;
+}
+.course .course_p .citco .course_left{
+    width: 100%;
+    padding: 10px 2px;
+}
+.course .course_p .citco .course_left h1{
+    font-family: sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    padding: 10px 10px;
+    color: #858488;
+}
+.course .course_p .citco .course_left p{
+    display: inline-block;
+    color: #a86f72;
+    font-family: sans-serif;
+    padding: 10px 10px;
+    margin: 10px 0;
+    line-height: 1.6;
+}
+.course .course_p .citco .course_left a{
+    color: white;
+    background-color: #49596D;
+    text-decoration: none;
+    padding: 15px 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+    transition: .3s linear;
+}
+.course .course_p .citco .course_left a:hover{
+    background-color: red;
+}
+.course .course_p .citco .course_right{
+    width: 45%;
+}
+.gallery{
+    margin: 30px;
+}
+.gallery .photo{
+    margin: 20px 0;;
+}
+.gallery .photo h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 10px 10px;
+    color: #858488;
+}
+.gallery .photo p{
+    font-family: sans-serif;
+    margin: 0 15px;
+    color: #858488;
+}
+.gallery .gal_p{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.gallery .gal_p img{
+    width: 32%;
+    margin-bottom: 30px;
+}
+.contact{
+    margin: 20px 0;
+}
+.contact .head{
+    margin: 10px 0;
+}
+.contact .head h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    padding: 10px 10px;
+    margin: 0 60px;
+    color: #858488;
+}
+.contact .head p{
+    font-family: sans-serif;
+    margin: 0 75px;
+    color: #858488;
+}
+.contact .form form{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 70px;
+}
+.contact .form form input{
+    width: 49%;
+    padding: 10px;
+    margin: 10px 5px;
+}
+.contact .button{
+    width: 100%;
+    padding: 10px 650px;
+    
+}
+.contact .button a{
+    color: white;
+    background-color: #0e2a4b;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 30px;
+    transition: .3s linear;
+}
+.contact .button a:hover{
+    background-color: red;
+}
+.footer{
+    background-color: #F5F5F5;
+    width: 100%;
+}
+.con{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.last{
+    color:#666666;
+    padding: 20px 53px;
+}
+.last hr{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 58px;
+    
+    background-color: #DDDDDD;
+}
+.cont a{
+    text-decoration: none;
+    color: #49596D;
+    font-size: 20px;
+}
+.copy{
+    text-align: center;  
+    color:#666666;
+    padding: 20px 0;
+    font-size: 20px;
+    
+}
